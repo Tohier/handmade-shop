@@ -11,7 +11,7 @@
 .lang-cur {
     width: 13px;
     height: 9px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro";
     font-size: 12px;
     font-weight: 300;
     text-align: center;
@@ -22,25 +22,12 @@
 .ship {
   width: 349px;
   height: 9px;
-  font-family: 'Source Sans Pro', sans-serif;;
+  font-family: "Source Sans Pro";
   font-size: 12px;
   line-height: 4.53;
   letter-spacing: 2.4px;
   text-align: left;
   color: #999999;
-}
-
-.top-icons {    
-    width: 111px;
-    height: 15px;
-    font-size: 15px;
-    line-height: 3.5;
-    text-align: center;
-    color: #999999;
-    padding-left: 200px;
-    i {
-        padding-left: 10px;
-    }
 }
 
 .home {
@@ -50,7 +37,7 @@
 .logo {
     width: 117px;
     height: 21px;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis";
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -60,4 +47,29 @@
 
 .lookbook {
     padding-right: 9.5%;
+}
+
+.header-info {
+    h1{
+        width: 597px;
+        height: 38px;
+        font-family: "Dosis";
+        font-size: 50px;
+        line-height: 0.96;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 30vw;
+        margin-top: 10vw;
+    }
+    p{
+        width: 924px;
+        height: 39px;
+        font-family: "Source Sans Pro";
+        font-size: 15px;
+        line-height: 1.67;
+        text-align: center;
+        color: #e6e6e6;
+        padding-left: 20%;
+    }
 }

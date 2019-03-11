@@ -4,7 +4,7 @@ body {
   color: white; }
 
 header {
-  background: linear-gradient(#2e242488, #00000088), url(../images/pottery.jpeg);
+  background: linear-gradient(#000000a9, #00000088), url(../images/ha.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -29,33 +29,12 @@ nav ul {
     color: #ffffff;
     text-decoration: none; }
 
-.topbar {
-  width: 100%;
-  height: 53px;
-  background-color: #2d2827; }
-  .topbar div {
-    text-align: center; }
-
-.lang-cur {
-  width: 13px;
-  height: 9px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  text-align: center;
-  color: #999999;
-  padding: 10px; }
-
-.ship {
-  width: 349px;
-  height: 9px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12px;
-  line-height: 4.53;
-  letter-spacing: 2.4px;
-  text-align: left;
-  color: #999999; }
-
+@font-face {
+  font-family: "Dosis";
+  src: url(../fonts/Dosis-Light.ttf); }
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(../fonts/SourceSansPro-Light.ttf); }
 .top-icons {
   width: 111px;
   height: 15px;
@@ -67,13 +46,62 @@ nav ul {
   .top-icons i {
     padding-left: 10px; }
 
+.down {
+  position: absolute;
+  left: 50%;
+  top: 89%;
+  font-size: 30px; }
+
+.arrow {
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #a88d7b; }
+
+.topbar {
+  width: 100%;
+  height: 53px;
+  background-color: #2d2827; }
+  .topbar div {
+    text-align: center; }
+
+.lang-cur {
+  width: 13px;
+  height: 9px;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: #999999;
+  padding: 10px; }
+
+.ship {
+  width: 349px;
+  height: 9px;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  line-height: 4.53;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #999999; }
+
 .home {
   padding-left: 7%; }
 
 .logo {
   width: 117px;
   height: 21px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -82,6 +110,27 @@ nav ul {
 
 .lookbook {
   padding-right: 9.5%; }
+
+.header-info h1 {
+  width: 597px;
+  height: 38px;
+  font-family: "Dosis";
+  font-size: 50px;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 30vw;
+  margin-top: 10vw; }
+.header-info p {
+  width: 924px;
+  height: 39px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  line-height: 1.67;
+  text-align: center;
+  color: #e6e6e6;
+  padding-left: 20%; }
 
 .topbar {
   display: grid;
