@@ -1,14 +1,33 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: white; }
 
 header {
-  background-image: url(../images/glass.jpg);
+  background: linear-gradient(#2e242488, #00000088), url(../images/pottery.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
-  color: #999999; }
+  color: #ffffff; }
+
+nav ul {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 3%;
+  padding-left: 12.5%; }
+  nav ul li {
+    display: inline;
+    padding: 2vw; }
+  nav ul a {
+    width: 36px;
+    height: 11px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none; }
 
 .topbar {
   width: 100%;
@@ -47,6 +66,22 @@ header {
   padding-left: 200px; }
   .top-icons i {
     padding-left: 10px; }
+
+.home {
+  padding-left: 7%; }
+
+.logo {
+  width: 117px;
+  height: 21px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #fffefe; }
+
+.lookbook {
+  padding-right: 9.5%; }
 
 .topbar {
   display: grid;
