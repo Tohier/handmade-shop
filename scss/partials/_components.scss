@@ -23,10 +23,10 @@
 
 // code for the arrow
 .down {
-    position: absolute;
-    left: 50%;
-    top: 89%;
     font-size: 30px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 12%;
 }
 .arrow {
   animation: bounce 2s infinite;
@@ -52,4 +52,17 @@ button {
     border-radius: 20px;
     background-color: #a88d7b;
     margin-left: 46%;
+    color: white;
 }
+
+.new-btn {
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  border-radius: 0.4688rem;
+  background-color: #a88d7b;
+  top: 5px;
+  right: 10px;
+}
+
+
