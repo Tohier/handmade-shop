@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: white; }
+  color: black; }
 
 header {
   background: linear-gradient(#000000a9, #00000088), url(../images/ha.webp);
@@ -65,8 +65,10 @@ nav ul {
 button {
   width: 150px;
   height: 40px;
+  border: none;
   border-radius: 20px;
-  background-color: #a88d7b; }
+  background-color: #a88d7b;
+  margin-left: 46%; }
 
 .topbar {
   width: 100%;
@@ -104,7 +106,7 @@ button {
   font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.5rem !important;
   text-align: left;
   color: #fffefe; }
 
@@ -120,7 +122,7 @@ button {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  margin-left: 30vw;
+  margin-left: 31vw;
   margin-top: 10vw; }
 .header-info p {
   width: 924px;
@@ -130,10 +132,42 @@ button {
   line-height: 1.67;
   text-align: center;
   color: #e6e6e6;
-  padding-left: 20%; }
+  padding-left: 21%; }
+
+.title-1 {
+  color: black;
+  width: 19.5625rem;
+  height: 1.5rem;
+  font-family: "Source Sans Pro";
+  font-size: 2.25rem;
+  line-height: 1,33;
+  margin-left: 43%; }
+
+.bottom-border {
+  width: 50px;
+  height: 2px;
+  background-color: #a88d7b;
+  position: absolute;
+  margin-left: 50%; }
+
+.featured-products {
+  width: 370px;
+  height: 360px;
+  padding-top: 2rem; }
 
 .topbar {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 56rem;
+  grid-gap: 1rem; }
+  .featured-products div {
+    width: 18rem;
+    height: 18rem;
+    background-color: gray; }
 
 /*# sourceMappingURL=main.css.map */

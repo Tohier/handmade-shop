@@ -5,3 +5,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 56rem;
+    grid-gap: 1rem;
+    
+    div{
+        width: 18rem;
+        height: 18rem;
+        background-color: gray;
+    }
+}
