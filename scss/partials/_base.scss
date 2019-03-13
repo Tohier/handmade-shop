@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: linear-gradient(#000000a9, #00000088), url(../images/ha.webp);
+    background: linear-gradient(#000000a9, #000000), url(../images/glass-blowing.gif);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,3 +60,24 @@ h3 {
     color: #999999;
     margin-top: 0px;
  }
+
+.leather {
+    .leather-info{
+        h3{
+            width: 33.125rem;
+            font-family: "Dosis";
+            font-size: 3rem;
+            text-align: center;
+            color: #ffffff;
+        }
+        p{
+         
+            width: 656px;
+            font-family: "Source Sans Pro";
+            font-size: 15px;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}

@@ -65,4 +65,15 @@ button {
   right: 10px;
 }
 
+.leather {
+  .leather-btn{
+      border-radius:0px;
+      width: 9.375rem;
+      height: 2.5rem;
+  }
+}
 
+button:hover {
+  transition: 250ms ease;
+  transform: scale(1.1);
+}
