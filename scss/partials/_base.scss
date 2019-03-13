@@ -63,12 +63,16 @@ h3 {
 
 .leather {
     .leather-info{
+        position: absolute;
+        margin-left: 23.0625rem;
+        text-align: center;
         h3{
-            width: 33.125rem;
+            margin-top: 8.4375rem;
             font-family: "Dosis";
             font-size: 3rem;
             text-align: center;
             color: #ffffff;
+           
         }
         p{
          
