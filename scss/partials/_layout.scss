@@ -51,26 +51,15 @@
 footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-        
-    .footer-info {
-        text-align:justify;
-        color: #999999;
-        margin-left: 10.625rem;
-        margin-top: 2.5rem;
 
-            img {
-                margin-left: -1.625rem;
-            }
-    }    
+  .footer-instagram {
+    display: grid;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    grid-gap: 1rem;
 
-    .footer-instagram {
-        display: grid;
-        grid-template-columns: repeat(4, 5rem);
-        grid-template-rows: repeat(2, 5rem);
-        grid-gap: 1rem;
-
-        div {
-            background: white;
-        }
+    div {
+      background: white;
     }
+  }
 }

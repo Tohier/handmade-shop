@@ -303,6 +303,90 @@ section.leather {
       letter-spacing: 0.0938rem;
       color: #a88d7b; }
 
+.footer-info {
+  text-align: justify;
+  color: #999999;
+  margin-left: 10.625rem;
+  margin-top: 1.5rem; }
+  .footer-info h3 {
+    width: 15.3125rem;
+    font-family: "Dosis";
+    font-size: 2.875rem;
+    font-weight: 600;
+    letter-spacing: 0.0938rem;
+    color: #e5e5e5;
+    margin-left: -1.9375rem; }
+  .footer-info span {
+    padding-right: 7px; }
+  .footer-info p {
+    height: 0.875rem;
+    font-family: "Source Sans Pro";
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.8125rem; }
+
+.footer-links {
+  text-align: justify;
+  color: #999999;
+  margin-left: 10.625rem;
+  margin-top: 5rem; }
+  .footer-links h3 {
+    width: 2.875rem;
+    height: 0.75rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #e5e5e5;
+    padding-bottom: 2.9375rem; }
+  .footer-links a {
+    text-decoration: none;
+    width: 3.5rem;
+    height: 0.6875rem;
+    font-family: "Source Sans Pro";
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: #999999; }
+
+.footer-shop {
+  text-align: justify;
+  color: #999999;
+  margin-left: 4rem;
+  margin-top: 5rem; }
+  .footer-shop h3 {
+    width: 2.875rem;
+    height: 0.75rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #e5e5e5;
+    padding-bottom: 2.9375rem; }
+  .footer-shop a {
+    text-decoration: none;
+    width: 3.5rem;
+    height: 0.6875rem;
+    font-family: "Source Sans Pro";
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: #999999; }
+
+.footer-instagram {
+  text-align: justify;
+  color: #999999;
+  margin-top: 5rem; }
+  .footer-instagram h3 {
+    grid-column: -1/1;
+    text-align: left;
+    width: 5.6875rem;
+    height: 0.8125rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #ffffff;
+    text-transform: uppercase; }
+
 .topbar {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -346,17 +430,10 @@ section.leather {
 footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
-  footer .footer-info {
-    text-align: justify;
-    color: #999999;
-    margin-left: 10.625rem;
-    margin-top: 2.5rem; }
-    footer .footer-info img {
-      margin-left: -1.625rem; }
   footer .footer-instagram {
     display: grid;
     grid-template-columns: repeat(4, 5rem);
-    grid-template-rows: repeat(2, 5rem);
+    grid-template-rows: repeat(3, 5rem);
     grid-gap: 1rem; }
     footer .footer-instagram div {
       background: white; }
