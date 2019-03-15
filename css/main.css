@@ -7,7 +7,7 @@ a {
   text-decoration: none; }
 
 header {
-  background: linear-gradient(#000000a9, #000000), url(../images/glass-blowing.gif);
+  background: linear-gradient(#000000a9, #be4208), url(../images/glass-blowing.gif);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +146,8 @@ button {
 
 button:hover {
   transition: 250ms ease;
-  transform: scale(1.1); }
+  transform: scale(1.1);
+  left: 20%; }
 
 .topbar {
   width: 100%;
