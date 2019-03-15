@@ -3,7 +3,9 @@ body {
     padding: 0;
     color: rgb(0, 0, 0);
 }
-
+a {
+    text-decoration: none;
+}
 header {
     background: linear-gradient(#000000a9, #000000), url(../images/glass-blowing.gif);
     background-attachment: fixed;
@@ -84,4 +86,9 @@ h3 {
             color: #ffffff;
         }
     }
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
