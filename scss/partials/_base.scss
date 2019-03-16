@@ -40,7 +40,6 @@ nav ul {
 }
 div {
   position: relative;
-  overflow: hidden;
 }
 
 h3 {
@@ -89,10 +88,6 @@ h3 {
     }
 }
 
-img:hover {
-    transform: scale(1.1);
-    transition: 1s;
-}
 
 footer {
     width: 100%;
