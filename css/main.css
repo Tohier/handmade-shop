@@ -629,7 +629,7 @@ button:hover {
 #contact-details {
   padding-bottom: 4rem;
   display: grid;
-  width: 73.125rem;
+  width: 50rem;;
   margin: auto;
   grid-template-columns: repeat(3, 1fr); }
 
@@ -641,7 +641,7 @@ button:hover {
   display: grid;
   grid-gap: 1rem;
   margin: auto;
-  width: 42.75rem;
+  width: 50rem;
   grid-template-columns: repeat(2, 1fr); }
 
 #blog-share-sections {
