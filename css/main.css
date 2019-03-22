@@ -86,7 +86,7 @@ img:hover {
   transition: 200ms; }
 
 textarea {
-  width: 203%;
+  width: 205%;
   height: 100%; }
 
 footer {
@@ -185,16 +185,20 @@ footer {
   overflow: hidden; }
 
 .zar-about {
-  color: white;
+  color: #999999;
   padding-top: 15px;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .lang-about {
   margin-top: -15px; }
+  .lang-about p {
+    color: #999999; }
+  .lang-about i {
+    color: #999999; }
 
 #title-header-about {
   font-size: 1.5em;
-  color: white;
+  color: #999999;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .about-us {
@@ -294,7 +298,8 @@ footer {
   padding-top: 4em; }
 
 .footer-text {
-  text-align: left; }
+  text-align: left;
+  color: #999999; }
 
 .footer-head {
   padding-top: 4em; }
@@ -302,7 +307,7 @@ footer {
 .footer-heading {
   text-align: left;
   color: #f0f0f0;
-  padding-top: 1em; }
+  padding-top: 3rem; }
 
 button {
   border-radius: 1.25rem;
@@ -344,8 +349,7 @@ button:hover {
   position: relative;
   width: 24px;
   height: 24px;
-  margin-left: 45.75rem;
-  margin-top: 12.5rem; }
+  margin-left: 49%; }
 
 .chevron {
   position: absolute;
@@ -508,11 +512,16 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  background-color: #3d3d3d; }
+  background-color: #eeeeee;
+  height: 3.3125rem;
+  color: #999999 !important; }
+  #page-top-about p {
+    color: #999999; }
 
 #about-nav {
   display: grid;
-  background-color: black;
+  background-color: #ffffff;
+  color: #666666 !important;
   grid-template-columns: 1fr, 1fr;
   height: 3.6em;
   grid-template-areas: "about-logo about-navbar"; }
@@ -523,6 +532,10 @@ button:hover {
 
 .about-navbar {
   grid-area: about-navbar; }
+  .about-navbar a {
+    color: #666666; }
+  .about-navbar i {
+    color: #666666; }
 
 #about-content {
   padding: 5em 0em;
@@ -537,7 +550,6 @@ button:hover {
   height: 30.625rem; }
 
 .about-page-img {
-  background-color: #ff4343;
   width: 37.5rem;
   height: 30.625rem;
   position: relative;
@@ -615,7 +627,7 @@ button:hover {
   grid-template-columns: 2fr 2fr; }
 
 #contact-details {
-  padding: 5em 0em;
+  padding-bottom: 4rem;
   display: grid;
   width: 73.125rem;
   margin: auto;
@@ -629,7 +641,7 @@ button:hover {
   display: grid;
   grid-gap: 1rem;
   margin: auto;
-  width: 73.125rem;
+  width: 42.75rem;
   grid-template-columns: repeat(2, 1fr); }
 
 #blog-share-sections {

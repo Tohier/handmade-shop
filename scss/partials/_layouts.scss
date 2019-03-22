@@ -16,7 +16,6 @@
 
 }
 
-
 .featured-product-box1 {
     grid-area: one;
     background-color: rgba(206, 192, 192, 0.664);
@@ -125,16 +124,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    background-color: rgb(61, 61, 61);
+    background-color: #eeeeee;
+    height: 3.3125rem;
+    color: #999999 !important;
+        p {
+            color: #999999;
+        }
 }
 
 #about-nav {
     display: grid;
-    background-color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: #666666 !important;
     grid-template-columns: 1fr, 1fr;
     height: 3.6em;
     grid-template-areas: 
-                            "about-logo about-navbar"
+      "about-logo about-navbar"
 }
 
 .about-logo {
@@ -144,6 +149,12 @@
 
 .about-navbar {
     grid-area: about-navbar;
+        a {
+            color: #666666;
+        }
+        i {
+            color: #666666;
+        }
 }
 
 #about-content {
@@ -161,7 +172,6 @@
 }
 
 .about-page-img {
-    background-color: rgb(255, 67, 67);
     width: 37.5rem;
     height: 30.625rem;
     position: relative;
@@ -262,7 +272,7 @@
 // Contact page
 
 #contact-details {
-    padding: 5em 0em;
+    padding-bottom: 4rem;
     display: grid;
     width: 73.125rem;
     margin: auto;
@@ -280,7 +290,7 @@
     display: grid;
     grid-gap: 1rem;
     margin: auto;
-    width: 73.125rem;
+    width: 42.75rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -314,6 +324,7 @@
     margin: auto;
     width: 70rem;
     grid-template-columns: 2fr 1fr 1fr 2fr;
+       
 }
 
 #insta-grid {

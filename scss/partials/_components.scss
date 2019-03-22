@@ -50,8 +50,8 @@ button:hover {
   position: relative;
   width: 24px;
   height: 24px;
-  margin-left: 45.75rem;
-  margin-top: 12.5rem;
+  margin-left: 49%;   
+ 
 }
 
 .chevron {
@@ -110,6 +110,7 @@ button:hover {
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
+// end of the arrow animation
 
 .text {
   display: block;

@@ -84,18 +84,24 @@
 
 
 .zar-about {
-    color: white;
+    color: #999999;
     padding-top: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .lang-about {
     margin-top: -15px;
+    p {
+        color: #999999;
+    }
+    i {
+        color: #999999;
+    }
 }
 
 #title-header-about {
     font-size: 1.5em;
-    color: white;
+    color: #999999;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -106,8 +112,7 @@
 }
 
 .header-about {
-    height: 27.8125rem;
-    
+    height: 27.8125rem  ;
 }
 
 // what we do section
@@ -237,6 +242,7 @@
 
 .footer-text {
     text-align: left;
+    color: #999999;
 }
 
 .footer-head {
@@ -246,6 +252,7 @@
 .footer-heading {
     text-align: left;
     color: #f0f0f0;
-    padding-top: 1em;
+    padding-top: 3rem;
 }
+
 
