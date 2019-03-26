@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
-
 button {
     border-radius: 1.25rem;
     color: #ffffff;
@@ -133,4 +131,37 @@ button:hover {
   }
 }
 
+// code for the pretty photo
 
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 5%;
+  .gallery {
+    div{
+      a {
+      img {
+        width: 100%;
+        height: 100%;
+        -webkit-transition: -webkit-transform .15s ease;
+        -moz-transition: -moz-transform .15s ease;
+        -o-transition: -o-transform .15s ease;
+        -ms-transition: -ms-transform .15s ease;
+        transition: transform .15s ease;
+        position:relative;
+      }
+      
+      &:hover {
+        img {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          transform: scale(1.05);
+          z-index: 5;
+        }
+      }
+    } 
+    }
+  }
+}

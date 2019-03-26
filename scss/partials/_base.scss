@@ -14,7 +14,11 @@ header {
     background-repeat: no-repeat;
     text-align: center;
 }
-
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9375rem;
+}
 span {
     padding-left: .5em;
 }
@@ -31,7 +35,7 @@ nav {
     height: 3.3125rem;
 
     ul {
-        padding-top: 1.3em;
+        padding-top: 2.3em;
         margin: 0;  
     }
         li {

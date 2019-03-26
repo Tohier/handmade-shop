@@ -139,14 +139,14 @@
     background-color: #ffffff;
     color: #666666 !important;
     grid-template-columns: 1fr, 1fr;
-    height: 3.6em;
+    height: 5.875rem;
     grid-template-areas: 
       "about-logo about-navbar"
 }
 
 .about-logo {
     grid-area: about-logo;
-    padding-top: 0.9375rem;
+    padding-top: 1.9375rem;
 }
 
 .about-navbar {
@@ -343,5 +343,10 @@
     background-color: #fff;
 }
 
-
+// code for the gallery
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
 
