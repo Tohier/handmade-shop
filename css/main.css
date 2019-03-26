@@ -38,6 +38,9 @@ nav {
   nav a {
     color: white;
     text-decoration: none; }
+  nav a:hover {
+    border: 2px dotted black;
+    transition: 250ms; }
 
 h2 {
   margin-top: 0px;
@@ -104,7 +107,7 @@ footer {
   color: #a88d7b; }
 
 .leather-sec {
-  background-image: linear-gradient(rgba(255, 72, 0, 0.4), #ff6600cc), url(../../images/leather-bg.jpeg);
+  background-image: linear-gradient(rgba(255, 72, 0, 0.4), rgba(255, 102, 0, 0.8)), url(../../images/leather-bg.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +186,7 @@ footer {
   font-size: 3rem;
   font-family: 'Dosis', sans-serif;
   margin-bottom: 0px;
-  width: 30.5rem; }
+  width: 40.5rem; }
 
 #blog-text {
   color: black;

@@ -46,6 +46,10 @@ nav {
                 color: white;
                 text-decoration: none;
     }
+            a:hover {
+                border: 2px dotted black;
+                transition: 250ms;
+            }
 }
 
 h2 {
@@ -126,7 +130,7 @@ footer {
 }
 
 .leather-sec {
-    background-image:linear-gradient(rgba(255, 72, 0, 0.4), #ff6600cc), url(../../images/leather-bg.jpeg);
+    background-image:linear-gradient(rgba(255, 72, 0, 0.4), rgba(255, 102, 0, 0.8)), url(../../images/leather-bg.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,3 +159,5 @@ footer {
     color: #555555;
     font-size: 15px;
 }
+
+
