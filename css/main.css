@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0; }
 
@@ -105,7 +108,7 @@ footer {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 34.5rem; }
+  height: 554px; }
 
 .blog-txt a {
   text-decoration: none;
@@ -117,6 +120,13 @@ footer {
   letter-spacing: 1.5px;
   text-align: left;
   color: #a88d7b; }
+
+.link-text {
+  margin-top: 22%; }
+
+#twitter {
+  color: #555555;
+  font-size: 15px; }
 
 #page-top {
   height: 3em;
@@ -171,8 +181,9 @@ footer {
 #leather-heading {
   color: white;
   font-size: 3rem;
-  font-family: font-family 'Dosis', sans-serif;
-  margin-bottom: 0px; }
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 0px;
+  width: 30.5rem; }
 
 #blog-text {
   color: black;
@@ -198,7 +209,7 @@ footer {
 
 #title-header-about {
   font-size: 1.5em;
-  color: #999999;
+  color: #000000;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .about-us {
@@ -222,7 +233,7 @@ footer {
 
 .what-text {
   text-align: left;
-  color: black; }
+  color: #666666; }
 
 .address {
   background-color: #f0f0f0;
@@ -241,7 +252,7 @@ footer {
 
 .number-box {
   background-color: #f0f0f0;
-  border-bottom: 1px solid rgba(129, 115, 115, 0.555); }
+  border-bottom: 1px solid #e6e6e6; }
 
 .contact-text {
   color: black;
@@ -295,14 +306,17 @@ footer {
   padding: 2em 0em;
   text-align: left;
   margin-bottom: 0px;
-  padding-top: 4em; }
+  padding-top: 4em;
+  color: #ffffff;
+  margin-top: 6.2%; }
 
 .footer-text {
   text-align: left;
   color: #999999; }
 
 .footer-head {
-  padding-top: 4em; }
+  color: #ffffff;
+  margin-top: 49%; }
 
 .footer-heading {
   text-align: left;
@@ -332,7 +346,8 @@ button:hover {
 
 .contact-btn {
   border-radius: 2%;
-  margin: 1.5em 0em 5em 3.3em; }
+  margin: 1.5em 0em 5em 3.3em;
+  margin-left: 24.8%; }
 
 .blog-page-text {
   text-align: left;
@@ -349,7 +364,8 @@ button:hover {
   position: relative;
   width: 24px;
   height: 24px;
-  margin-left: 49%; }
+  margin-left: 49%;
+  margin-top: 5%; }
 
 .chevron {
   position: absolute;
@@ -474,6 +490,8 @@ button:hover {
 
 #hand-grid {
   padding: 5em 0em;
+  margin-top: 0px;
+  padding-top: 0px;
   margin: 5em 0em;
   text-align: center;
   display: grid;
@@ -629,7 +647,8 @@ button:hover {
 #contact-details {
   padding-bottom: 4rem;
   display: grid;
-  width: 50rem;;
+  width: 47.75rem;
+  padding-top: 50px;
   margin: auto;
   grid-template-columns: repeat(3, 1fr); }
 
@@ -641,7 +660,7 @@ button:hover {
   display: grid;
   grid-gap: 1rem;
   margin: auto;
-  width: 50rem;
+  width: 47.75rem;
   grid-template-columns: repeat(2, 1fr); }
 
 #blog-share-sections {

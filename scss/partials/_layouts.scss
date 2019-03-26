@@ -78,6 +78,8 @@
 
 #hand-grid {
     padding: 5em 0em;
+    margin-top: 0px;
+    padding-top: 0px;
     margin: 5em 0em;
     text-align: center;
     display: grid;
@@ -274,7 +276,8 @@
 #contact-details {
     padding-bottom: 4rem;
     display: grid;
-    width: 73.125rem;
+    width: 47.75rem;
+    padding-top: 50px;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -290,7 +293,7 @@
     display: grid;
     grid-gap: 1rem;
     margin: auto;
-    width: 42.75rem;
+    width: 47.75rem;
     grid-template-columns: repeat(2, 1fr);
 }
 

@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
 }
@@ -128,7 +130,7 @@ footer {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 34.5rem;
+    height: 554px;
 }
 
 .blog-txt {
@@ -143,4 +145,13 @@ footer {
         text-align: left;   
         color: #a88d7b;
     }
+}
+
+.link-text {
+    margin-top: 22%;
+}
+
+#twitter {
+    color: #555555;
+    font-size: 15px;
 }

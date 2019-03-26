@@ -65,9 +65,9 @@
 #leather-heading {
     color: white;
     font-size: 3rem;
-    font-family: font-family 'Dosis', sans-serif;
-     margin-bottom: 0px;
-    
+    font-family:'Dosis', sans-serif;
+    margin-bottom: 0px;
+    width: 30.5rem;
 }
 #blog-text {
     color: black;
@@ -101,7 +101,7 @@
 
 #title-header-about {
     font-size: 1.5em;
-    color: #999999;
+    color: #000000;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -131,8 +131,8 @@
 }
 
 .what-text {
-    text-align: left;
-    color: black;
+   text-align: left;
+    color: #666666;
 }
 
 // ----------------
@@ -161,7 +161,7 @@
 
 .number-box {
     background-color: #f0f0f0;
-    border-bottom: 1px solid rgba(129, 115, 115, 0.555);
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .contact-text {
@@ -237,6 +237,8 @@
     text-align: left;
     margin-bottom: 0px;
     padding-top: 4em;
+    color: #ffffff;
+    margin-top: 6.2%;
 }
 
 
@@ -246,7 +248,8 @@
 }
 
 .footer-head {
-    padding-top: 4em;
+    color: #ffffff;
+    margin-top: 49%;
 }
 
 .footer-heading {
