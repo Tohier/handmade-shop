@@ -19,10 +19,10 @@ a {
   font-size: 0.9375rem; }
 
 span {
-  padding-left: .5em; }
+  padding-left: 0.5em; }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 0.9375rem;
   text-align: center;
   color: #e6e6e6; }
@@ -34,24 +34,36 @@ nav {
     margin: 0; }
   nav li {
     display: inline;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: white;
     font-size: 1rem;
     letter-spacing: 0.05rem;
-    padding: .8em; }
+    padding: 0.8em; }
   nav a {
     color: white;
-    text-decoration: none; }
-  nav a:hover {
-    border: 2px dotted black;
-    transition: 250ms; }
+    text-decoration: none;
+    position: relative; }
+  nav a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    background-color: gray;
+    left: 49%;
+    height: 0.3vh;
+    transform: translateX(-50%);
+    margin-top: 0.3125rem;
+    transition: 0.2s linear; }
+  nav a:hover::after {
+    width: 100%;
+    background: gray; }
 
 h2 {
   margin-top: 0px;
   padding-top: 3em;
   padding-bottom: 3rem;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   position: relative; }
 
 h2:after {
@@ -65,17 +77,17 @@ h2:after {
   width: 3.125rem; }
 
 h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-size: 2rem; }
 
 h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #666666;
   margin-top: 0em; }
 
 h5 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-size: 1rem; }
 
