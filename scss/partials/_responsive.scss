@@ -3,6 +3,10 @@
   and (max-device-width: 480px)
   and (orientation: portrait) {
 
+    .promo-banner {
+        font-size: 2px !important ;
+    }
+    // for the featured products
     #featured-product {
     display: block !important;
     padding-bottom: 5vh;
@@ -10,6 +14,5 @@
     width: 100%;
     grid-gap: 1rem;
     margin: auto;
-   
 }
 }

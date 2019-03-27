@@ -721,6 +721,9 @@ button:hover {
   grid-gap: 1rem; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  .promo-banner {
+    font-size: 2px !important; }
+
   #featured-product {
     display: block !important;
     padding-bottom: 5vh;
