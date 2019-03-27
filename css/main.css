@@ -147,6 +147,18 @@ footer {
   color: #555555;
   font-size: 15px; }
 
+.shop div {
+  width: 18.75rem;
+  height: 18.75rem; }
+.shop p {
+  color: black;
+  text-align: left; }
+
+#product-list {
+  background-color: #f5f5f5; }
+  #product-list .shop {
+    padding-top: 5%; }
+
 #page-top {
   height: 3em;
   background-color: #2d2827; }
@@ -342,6 +354,12 @@ footer {
   text-align: left;
   color: #f0f0f0;
   padding-top: 3rem; }
+
+.shop-subheading {
+  height: 10%; }
+  .shop-subheading p {
+    color: black;
+    display: inline-block; }
 
 button {
   border-radius: 1.25rem;
@@ -719,6 +737,10 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem; }
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   .promo-banner {
