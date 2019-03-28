@@ -326,7 +326,7 @@ footer {
   color: black; }
 
 .final-footer {
-  height: 4rem;
+  height: 5rem;
   background-color: #d7d7d7d7; }
 
 .final-footer-text {
@@ -444,44 +444,51 @@ button:hover {
   100% {
     opacity: 0;
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5); } }
+#gallery-body {
+  background-color: #eeeeee; }
+
 .container {
   max-width: 100%;
   width: 100%;
   margin-bottom: 5%; }
-  .container .gallery div a img {
-    width: 100%;
-    height: 100%;
-    -webkit-transition: -webkit-transform .15s ease;
-    -moz-transition: -moz-transform .15s ease;
-    -o-transition: -o-transform .15s ease;
-    -ms-transition: -ms-transform .15s ease;
-    transition: transform .15s ease;
-    position: relative; }
-  .container .gallery div a:hover img {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-    z-index: 5; }
+  .container .gallery div {
+    width: 18.75rem;
+    height: 18.75rem; }
+    .container .gallery div a img {
+      width: 100%;
+      height: 100%;
+      -webkit-transition: -webkit-transform .15s ease;
+      -moz-transition: -moz-transform .15s ease;
+      -o-transition: -o-transform .15s ease;
+      -ms-transition: -ms-transform .15s ease;
+      transition: transform .15s ease;
+      position: relative; }
+    .container .gallery div a:hover img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      z-index: 5; }
 
 #back2Top {
   width: 2.5rem;
-  line-height: 2.5rem;
+  line-height: 2rem;
   overflow: hidden;
   z-index: 50;
   display: none;
   position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   right: 0;
-  color: #555555d2;
+  color: red;
   text-align: center;
   text-decoration: none;
-  font-size: 10%; }
+  font-size: 250%; }
 
 #back2Top:hover {
-  color: rgba(255, 255, 255, 0.685);
-  transition: 1s; }
+  color: black;
+  transition: 1s;
+  overflow: hidden; }
 
 #page-top {
   display: grid;

@@ -10,7 +10,7 @@ $(function() {
 // the code for the back to top
 $(window).scroll(function () {
   var height = $(window).scrollTop();
-  if (height > 100) {
+  if (height > 500) {
     $('#back2Top').fadeIn();
   } else {
     $('#back2Top').fadeOut();
