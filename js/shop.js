@@ -5,7 +5,7 @@ function Items(type, price, des, img) {
     this.img = img;
 }
 
-var vase = new Items(" Handmade vase", " R150", "info here", '<img src="images/vase-1.jpg" alt="">');
+var vase = new Items(" Handmade vase", " R150", "Superb quality,available in 8 and 12.Dishwasher safe ", '<img src="images/vase-1.jpg" alt="">');
 
 document.getElementById("shop-item1").innerHTML = vase.img;
 document.getElementById("item-name").innerHTML = vase.type;

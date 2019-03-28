@@ -356,10 +356,42 @@ footer {
   padding-top: 3rem; }
 
 .shop-subheading {
-  height: 10%; }
+  height: 10%;
+  text-align: center; }
+  .shop-subheading #order {
+    float: inline-end; }
   .shop-subheading p {
     color: black;
-    display: inline-block; }
+    display: inline-block;
+    width: 166px;
+    height: 14px;
+    font-size: 0.9375rem;
+    color: #666666;
+    padding-right: 20%; }
+
+.item-name {
+  width: 11rem;
+  height: 1.125rem;
+  font-family: Source Sans Pro;
+  font-size: 1.5rem;
+  margin-top: 0px; }
+
+.item-price {
+  width: 4rem;
+  height: 0.75rem;
+  font-family: Source Sans Pro;
+  padding-top: 1.625rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #999999 !important; }
+
+.item-des {
+  width: 50.3125rem;
+  height: 4rem;
+  font-family: Source Sans Pro;
+  font-size: 0.9375rem;
+  color: #999999 !important;
+  padding-top: 2rem; }
 
 button {
   border-radius: 1.25rem;
@@ -765,7 +797,9 @@ button:hover {
 
 .shop {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 648px); }
+  .shop div {
+    padding-left: 45%; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   .promo-banner {
