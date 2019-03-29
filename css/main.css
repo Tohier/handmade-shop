@@ -159,6 +159,12 @@ footer {
   #product-list .shop {
     padding-top: 5%; }
 
+.shop-html {
+  font-size: 0.9375rem !important; }
+  .shop-html img {
+    width: 18.75rem !important;
+    height: 18.75rem !important; }
+
 #page-top {
   height: 3em;
   background-color: #2d2827; }
