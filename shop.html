@@ -83,7 +83,7 @@
                         <p id="item-name" class="item-name"></p>
                         <p id="item-price" class="item-price"></p>
                         <p id="item-des" class="item-des"></p>
-                        <button class="add btn my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="150" data-quantity="1" data-image="images/img_1.png">Add to cart</button>
+                        <button class="add btn my-cart-btn" data-id="1" data-name="Handmade vase" data-summary="summary 1" data-price="150" data-quantity="1" data-image="./images/vase-1.jpg">Add to cart</button>
                         
                     </article>
                 </section>
@@ -94,8 +94,7 @@
                         <p id="item-name2" class="item-name"</p>
                         <p id="item-price2" class="item-price"></p>
                         <p id="item-des2" class="item-des"></p>
-                        <button>Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="add btn my-cart-btn" data-id="2" data-name="necklace" data-price="50" data-quantity="1" data-image="./images/necklace.jpg">Add to cart</button>
                     </article>
                 </section>
                 
@@ -105,8 +104,7 @@
                         <p id="item-name3" class="item-name"></p>
                         <p id="item-price3" class="item-price"></p>
                         <p id="item-des3" class="item-des"></p>
-                        <button>Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="add btn my-cart-btn" data-id="3" data-name="Glass bowl" data-price="350" data-quantity="1" data-image="./images/bowl.jpg">Add to cart</button>
                     </article>
                 </section>
 
@@ -116,8 +114,7 @@
                         <p id="item-name4" class="item-name"></p>
                         <p id="item-price4"class="item-price"></p>
                         <p id="item-des4" class="item-des"></p>
-                        <button>Add to cart</button>
-                        <button>Remove from cart</button>
+                        <button class="add btn my-cart-btn" data-id="4" data-name="Dreamcatcher" data-price="75" data-quantity="1" data-image="./images/dream.jpg">Add to cart</button>
                     </article>
                 </section>
 
@@ -128,7 +125,7 @@
 <script type='text/javascript' src="js/jquery.mycart.js"></script>
 <script type="text/javascript">
     $(function () {
-
+        // the code for the shop (add to cart)
         var goToCartIcon = function ($addTocartBtn) {
             var $cartIcon = $(".my-cart-icon");
             var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({ "position": "fixed", "z-index": "999" });
@@ -143,7 +140,7 @@
         }
 
         $('.my-cart-btn').myCart({
-            currencySymbol: '$',
+            currencySymbol: 'R',
             classCartIcon: 'my-cart-icon',
             classCartBadge: 'my-cart-badge',
             classProductQuantity: 'my-product-quantity',
@@ -183,9 +180,74 @@
 
         $("#addNewProduct").click(function (event) {
             var currentElementNo = $(".row").children().length + 1;
-            $(".row").append('<div class="col-md-3 text-center"><img src="images/img_empty.png" width="150px" height="150px"><br>product ' + currentElementNo + ' - <strong>$' + currentElementNo + '</strong><br><button class="btn btn-danger my-cart-btn" data-id="' + currentElementNo + '" data-name="product ' + currentElementNo + '" data-summary="summary ' + currentElementNo + '" data-price="' + currentElementNo + '" data-quantity="1" data-image="images/img_empty.png">Add to Cart</button><a href="#" class="btn btn-info">Details</a></div>')
+            $(".row").append('<div class="col-md-3 text-center"><img src="images/img_empty.png" width="100px" height="100px"><br>product ' + currentElementNo + ' - <strong>$' + currentElementNo + '</strong><br><button class="btn btn-danger my-cart-btn" data-id="' + currentElementNo + '" data-name="product ' + currentElementNo + '" data-summary="summary ' + currentElementNo + '" data-price="' + currentElementNo + '" data-quantity="1" data-image="images/img_empty.png">Add to Cart</button><a href="#" class="btn btn-info">Details</a></div>')
         });
     });
 </script>
+<footer>
+    <article id="footer-grid">
+        <div>
+            <h3 class="footer-heading">NATE B</h3>
+            <p class="footer-text">379 5th Ave Rondebosch, CT 7700</p>
+            <p class="footer-text">(021) 235 5626</p>
+            <p class="footer-text">contact@nate_nonpareil.com</p>
+        </div>
+
+        <div>
+            <h4 class="footer-head">LINKS</h4>
+            <p class="footer-text">Products</p>
+            <p class="footer-text">Featured</p>
+            <p class="footer-text">Privacy Policy</p>
+            <p class="footer-text">Blog</p>
+        </div>
+
+        <div>
+            <h4 class="footer-head">SHOP</h4>
+            <p class="footer-text">About Us</p>
+            <p class="footer-text">Shipping</p>
+            <p class="footer-text">Contact</p>
+            <p class="footer-text">Support</p>
+        </div>
+
+        <div>
+            <h4 class="ig-header">INSTAGRAM</h4>
+            <aside id="insta-grid">
+                <div class="insta-grid-img">
+                    <img src="./images/pottery-insta1.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/pottery-insta2.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta3.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta4.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta5.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta6.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta7.jpg" alt="">
+                </div>
+                <div class="insta-grid-img">
+                    <img src="./images/insta8.jpg" alt="">
+                </div>
+            </aside>
+        </div>
+    </article>
+
+    <section class="final-footer">
+        <p class="final-footer-text"> Copyright &copy; 2019 Designed by nate_nonpareil. All rights reserved.</p>
+    </section>
+    <a id="back2Top" title="Back to top" href="#"><i class="fas fa-arrow-up"></i></a>
+    <script src="js/main.js"></script>
+
+</footer>       
+
+
 </body>
 </html>
