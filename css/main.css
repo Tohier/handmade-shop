@@ -369,7 +369,7 @@ footer {
   .shop-subheading p {
     color: black;
     display: inline-block;
-    width: 166px;
+    width: 166px !important;
     height: 14px;
     font-size: 0.9375rem;
     color: #666666;
