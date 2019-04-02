@@ -935,7 +935,8 @@ button:hover {
 
   .final-footer {
     height: 5rem;
-    background-color: #d7d7d7d7; }
+    background-color: #d7d7d7d7;
+    margin-top: 1%; }
 
   .promo-banner p {
     font-size: 64%; }
