@@ -1,18 +1,221 @@
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (orientation: portrait) {
-
-    .promo-banner {
-        font-size: 2px !important ;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  html {
+    overflow-x: hidden;
+  }
+  // all the responsiveness on the hero.
+  header {
+    height: 66vh;
+    background-color: #666666;
+    background-image: linear-gradient(rgba(255, 72, 0, 0.4), #ff6600cc),
+      url(../images/ha.webp);
+    background-attachment: scroll;
+    text-align: center;
+    background-position: bottom;
+  }
+  nav {
+    ul {
+      padding-left: 0px;
     }
-    // for the featured products
-    #featured-product {
+    li {
+      display: inline;
+      font-family: "Source Sans Pro", sans-serif;
+      color: white;
+      font-size: 100%;
+      padding: 0.2%;
+    }
+    a{
+        font-size: 45%;
+    }
+  }
+  .shopping-cart {
+    margin-left: 0vw;
+    font-size: 92%;
+    }
+  #logo {
+    font-size: 98%;
+    }
+  .banner-image-text {
+    padding: 0px;
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
+  .store-name {
+    font-size: 2rem;
+    margin-top: 9%;
+  }
+  .arrow {
+    margin-left: 45%;
+    bottom: -8rem;
+  }
+  // for the featured products
+  #featured-product {
     display: block !important;
     padding-bottom: 5vh;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
     grid-gap: 1rem;
     margin: auto;
-}
+  }
+  // code for the collection part
+  #new-collections {
+    display: block;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    grid-gap: 1rem;
+    margin: auto;
+  }
+  // code for the leather section
+  .leather-sec {
+    background-image: linear-gradient(
+        rgba(255, 72, 0, 0.4),
+        rgba(255, 102, 0, 0.301)
+      ),
+      url(../../images/leather-bg.jpeg);
+    background-position: center;
+    height: 60vh;
+  }
+  #leather-heading {
+    padding-top: 5.625rem;
+    width: 100vw;
+    font-size: 300%;
+  }
+  .hand-crafted {
+    padding-left: 0px;
+  }
+  // code for the blog section
+  .blog {
+    width: 100vw;
+  }
+  .accessories-home {
+    text-align: left;
+    width: 100vw;
+  }
+  #blog-text {
+    width: 100vw;
+  }
+  #blog-grid {
+    display: block;
+  }
+  // code for the footer
+  footer {
+    height: 86vh;
+    width: 100%;
+    background-color: #2d2827;
+  }
+  #footer-grid {
+    height: 61vh;
+    display: block;
+    margin: auto;
+    width: 100vw;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+  }
+  .link-text {
+    margin-top: 0%;
+    text-align: center;
+  }
+  .footer-head {
+    margin-top: 0px;
+  }
+  #footer-links {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #footer-shop {
+    display: none;
+  }
+  #footer-insta {
+    margin-top: 99%;
+    margin-left: -296%;
+  }
+  .ig-header {
+    color: #ffffff;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  #insta-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 21%);
+    grid-template-rows: repeat(2, 5rem);
+    padding-top: 1%;
+  }
+  .final-footer {
+    height: 5rem;
+    background-color: #d7d7d7d7;
+    margin-top: 55%;
+  }
+  // code for the about page
+  .promo-banner p {
+    font-size: 64%;
+  }
+  #about-content {
+    display: block;
+  }
+  .about-page-text {
+    width: 35%;
+  }
+  .about-page-img {
+    width: 35%;
+    height: 16.625rem;
+    position: relative;
+    overflow: hidden;
+  }
+  #meet-the-team {
+    display: block;
+    div {
+      width: 37%;
+      height: 20rem;
+    }
+    .team-text {
+      height: 10rem;
+    }
+  }
+  #what-we-do-grid {
+    display: block;
+    padding-top: 0px;
+  }
+  .what-we-do-img {
+    background: #b42a2a;
+    width: 37%;
+    height: 21.625rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .what-we-do-text {
+    text-align: center;
+    width: 37%;
+  }
+  // the code for the contact page
+  #contact-details {
+    display: block;
+    div {
+      width: 100vw;
+    }
+  }
+  .form {
+    width: 100vw;
+  }
+  // code for the blog page
+  #about-nav {
+    display: table-cell;
+    background-color: #ffffff;
+    color: #666666 !important;
+    grid-template-columns: 1fr, 1fr;
+    height: 5.875rem;
+    grid-template-areas: "about-logo about-navbar";
+    width: 100vw;
+  }
+  #blog-share-sections {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  #collections-blog-page {
+    padding: 3em 0em;
+    display: grid;
+    width: 100vw;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
 }
