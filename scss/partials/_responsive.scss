@@ -4,7 +4,7 @@
   }
   // all the responsiveness on the hero.
   header {
-    height: 66vh;
+    height: 100vh;
     background-color: #666666;
     background-image: linear-gradient(rgba(255, 72, 0, 0.4), #ff6600cc),
       url(../images/ha.webp);
@@ -72,7 +72,7 @@
       ),
       url(../../images/leather-bg.jpeg);
     background-position: center;
-    height: 60vh;
+    height: 100vh;
   }
   #leather-heading {
     padding-top: 5.625rem;
@@ -98,12 +98,12 @@
   }
   // code for the footer
   footer {
-    height: 86vh;
+    height: 100vh;
     width: 100%;
     background-color: #2d2827;
   }
   #footer-grid {
-    height: 61vh;
+    height: 99vh;
     display: block;
     margin: auto;
     width: 100vw;
@@ -142,7 +142,6 @@
   .final-footer {
     height: 5rem;
     background-color: #d7d7d7d7;
-    margin-top: 55%;
   }
   // code for the about page
   .promo-banner p {
