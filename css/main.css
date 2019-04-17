@@ -1,5 +1,6 @@
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 body {
   margin: 0; }
@@ -164,6 +165,10 @@ footer {
   .shop-html .shop img {
     width: 18.75rem !important;
     height: 18.75rem !important; }
+
+td img {
+  width: 123px;
+  height: 100px; }
 
 #page-top {
   height: 3em;

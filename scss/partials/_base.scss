@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -210,4 +211,11 @@ footer {
     height: 18.75rem !important;
   }
 
+}
+
+td {
+  img {
+    width: 123px;
+    height: 100px;
+  }
 }
